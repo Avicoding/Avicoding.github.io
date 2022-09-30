@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-right{
+    text-align: right;
+}
+.nav-bar{
+        background: #1d4052;
+        color: #fff;
+        padding: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius:20px;
+    box-sizing: border-box;
+}
+ h7{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(179, 127, 17);
+    
+
+ }
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+span{
+    margin: 0 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width
+:1000px){
+    span{
+        display: block;
+    }
+        ul li{
+            display:block;
+        }
+    ul li:hover{
+        background-color: #255247;
+        cursor: pointer;
+    };
+
+    h2{
+        font-size: large;
+        font-style: italic;
+    }
+}
+    h1{
+        font-style: italic;
+        font-size: 35px;
+        text-align: center;
+        color: rgb(216, 20, 20);
+    }
+    h2{
+        font-size: 30px;
+        font-style: italic;
+        text-align: center;
+        color: rgb(221, 25, 25);
+    }
+    p{
+        font-style: normal;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(36, 34, 34);
+    }
+    .socialmedia{
+        text-align: center;
+        font-size: 40px;
+        margin: 20px;
+    
+    }
+    img{
+        margin-left:100px;
+    }
+        main{
+            margin-left: 100px;
+        }
+    .logo{
+        float:left;
+        padding: 40px;
+        font-size: small;
+    
+    }
+    img{
+        margin: 40px;
+        text-align: start;
+    }
+  
+
+    
