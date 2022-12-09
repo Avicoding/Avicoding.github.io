@@ -1,0 +1,33 @@
+body{background-color: rgb(8, 7, 7);
+    height: 50vh;
+    display: grid;
+    place-items: center;
+
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #f9f6ee;
+    position: relative;
+    box-shadow: 0 0 10px #f9f6ee,
+                0 0 40px #f9f6ee,
+                0 0 80px #f9f6ee;
+}
+.circle::after{
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(7, 7, 6);
+    animation: eclipse 3s linear infinite alternate;
+}
+@keyframes eclipse{
+    0%{
+        transform: translate(-50px,50px)
+        scale(0.9);
+
+    }
+  
+}
